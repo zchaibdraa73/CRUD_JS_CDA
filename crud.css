@@ -1,0 +1,72 @@
+body > table{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0000ff;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: #0000ee;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table.list{
+    width: 100%;
+    color: #0000ee;
+}
+
+td, th{
+    border: 1px solid #000;
+    text-align: left;
+    padding: 2px;
+}
+
+tr:nth-child(even),table.list thead>tr{
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #000000;
+    color: #dddddd;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px #dddddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #5e0909;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+}
+
+.hide {
+    display: none;
+}
